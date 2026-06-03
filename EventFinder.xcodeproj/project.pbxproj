@@ -6,6 +6,53 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		001DF3F02F9651E100F289EE /* EventsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DF3EE2F9651E100F289EE /* EventsListVC.swift */; };
+		001DF3F92F9652E800F289EE /* EventsTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DF3F62F9652E800F289EE /* EventsTVuCell.swift */; };
+		001DF3FA2F9652E800F289EE /* EventsTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001DF3F72F9652E800F289EE /* EventsTVuCell.xib */; };
+		001DF3FC2F96546000F289EE /* EventsList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001DF3FB2F96545600F289EE /* EventsList+TableView.swift */; };
+		002B7DBF2FD002FA00BE0258 /* EventFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 002B7DBC2FD002FA00BE0258 /* EventFinder.xcdatamodeld */; };
+		005111712F960F2D007C4868 /* EventFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051116E2F960F2D007C4868 /* EventFinderUITests.swift */; };
+		005111722F960F2D007C4868 /* EventFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051116F2F960F2D007C4868 /* EventFinderUITestsLaunchTests.swift */; };
+		005111752F960F2D007C4868 /* EventFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111732F960F2D007C4868 /* EventFinderTests.swift */; };
+		005111922F960FBB007C4868 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111902F960FBB007C4868 /* DesignableView.swift */; };
+		005111932F960FBB007C4868 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051118F2F960FBB007C4868 /* Constants.swift */; };
+		005111962F960FC9007C4868 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111942F960FC9007C4868 /* CollectionViewFlowLayout.swift */; };
+		0051119F2F960FD0007C4868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005111972F960FD0007C4868 /* Assets.xcassets */; };
+		005111A02F960FD0007C4868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051119A2F960FD0007C4868 /* LaunchScreen.storyboard */; };
+		005111A12F960FD0007C4868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051119C2F960FD0007C4868 /* Main.storyboard */; };
+		005111A52F960FD0007C4868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111A22F960FD0007C4868 /* AppDelegate.swift */; };
+		005111A62F960FD0007C4868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111A32F960FD0007C4868 /* SceneDelegate.swift */; };
+		005111C52F96104A007C4868 /* HeaderTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111B22F96104A007C4868 /* HeaderTVuCell.swift */; };
+		005111C62F96104A007C4868 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111BE2F96104A007C4868 /* HomeVC.swift */; };
+		005111C72F96104A007C4868 /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111BF2F96104A007C4868 /* Home+TableView.swift */; };
+		005111C92F96104A007C4868 /* SpecialEventsTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111B82F96104A007C4868 /* SpecialEventsTVuCell.swift */; };
+		005111CA2F96104A007C4868 /* EventsCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111AD2F96104A007C4868 /* EventsCVuCell.swift */; };
+		005111CF2F96104A007C4868 /* SpecialEventsTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111B92F96104A007C4868 /* SpecialEventsTVuCell.xib */; };
+		005111D02F96104A007C4868 /* EventsCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111AE2F96104A007C4868 /* EventsCVuCell.xib */; };
+		005111D22F96104A007C4868 /* HeaderTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111B32F96104A007C4868 /* HeaderTVuCell.xib */; };
+		005111D52F96263F007C4868 /* SearchTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111D32F96263F007C4868 /* SearchTVuCell.swift */; };
+		005111D62F96263F007C4868 /* SearchTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111D42F96263F007C4868 /* SearchTVuCell.xib */; };
+		005111D92F9638CA007C4868 /* FriendEventsTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111D72F9638CA007C4868 /* FriendEventsTVuCell.swift */; };
+		005111DA2F9638CA007C4868 /* FriendEventsTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111D82F9638CA007C4868 /* FriendEventsTVuCell.xib */; };
+		005111DD2F963A56007C4868 /* FriendCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005111DB2F963A56007C4868 /* FriendCVuCell.swift */; };
+		005111DE2F963A56007C4868 /* FriendCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005111DC2F963A56007C4868 /* FriendCVuCell.xib */; };
+		00BAAAE02F9A1B2F0018EC81 /* FriendsList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAAADD2F9A1B2F0018EC81 /* FriendsList+TableView.swift */; };
+		00BAAAE12F9A1B2F0018EC81 /* FriendsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAAADE2F9A1B2F0018EC81 /* FriendsListVC.swift */; };
+		00BAAAE62F9A1B660018EC81 /* FriendRowTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BAAAE52F9A1B660018EC81 /* FriendRowTVuCell.xib */; };
+		00BAAAE72F9A1B660018EC81 /* FriendRowTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAAAE42F9A1B660018EC81 /* FriendRowTVuCell.swift */; };
+		00E2F3AA2F9A33C8006B656C /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3A62F9A33C8006B656C /* EventDetailsVC.swift */; };
+		00E2F3AC2F9A362D006B656C /* EventDetails+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3AB2F9A361D006B656C /* EventDetails+TableView.swift */; };
+		00E2F3B12F9A394A006B656C /* EventTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E2F3AF2F9A394A006B656C /* EventTVuCell.xib */; };
+		00E2F3B22F9A394A006B656C /* EventTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3AE2F9A394A006B656C /* EventTVuCell.swift */; };
+		00E2F3B52F9A395F006B656C /* HostTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E2F3B42F9A395F006B656C /* HostTVuCell.xib */; };
+		00E2F3B62F9A395F006B656C /* HostTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3B32F9A395F006B656C /* HostTVuCell.swift */; };
+		00E2F3B92F9A3BD2006B656C /* JoinBtnTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E2F3B82F9A3BD2006B656C /* JoinBtnTVuCell.xib */; };
+		00E2F3BA2F9A3BD2006B656C /* JoinBtnTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3B72F9A3BD2006B656C /* JoinBtnTVuCell.swift */; };
+		00E2F3BE2F9A3EE5006B656C /* DetailTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E2F3BD2F9A3EE5006B656C /* DetailTVuCell.xib */; };
+		00E2F3BF2F9A3EE5006B656C /* DetailTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2F3BC2F9A3EE5006B656C /* DetailTVuCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		005111512F960DF8007C4868 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,38 +71,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001DF3EE2F9651E100F289EE /* EventsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListVC.swift; sourceTree = "<group>"; };
+		001DF3F62F9652E800F289EE /* EventsTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTVuCell.swift; sourceTree = "<group>"; };
+		001DF3F72F9652E800F289EE /* EventsTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsTVuCell.xib; sourceTree = "<group>"; };
+		001DF3FB2F96545600F289EE /* EventsList+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventsList+TableView.swift"; sourceTree = "<group>"; };
+		002B7DBE2FD002FA00BE0258 /* EventFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventFinder.xcdatamodel; sourceTree = "<group>"; };
 		005111372F960DF4007C4868 /* EventFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005111502F960DF8007C4868 /* EventFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051115A2F960DF8007C4868 /* EventFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0051116E2F960F2D007C4868 /* EventFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderUITests.swift; sourceTree = "<group>"; };
+		0051116F2F960F2D007C4868 /* EventFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		005111732F960F2D007C4868 /* EventFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderTests.swift; sourceTree = "<group>"; };
+		005111792F960F2D007C4868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0051118F2F960FBB007C4868 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		005111902F960FBB007C4868 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		005111942F960FC9007C4868 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		005111972F960FD0007C4868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005111992F960FD0007C4868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0051119B2F960FD0007C4868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		005111A22F960FD0007C4868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		005111A32F960FD0007C4868 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		005111AD2F96104A007C4868 /* EventsCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCVuCell.swift; sourceTree = "<group>"; };
+		005111AE2F96104A007C4868 /* EventsCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsCVuCell.xib; sourceTree = "<group>"; };
+		005111B22F96104A007C4868 /* HeaderTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTVuCell.swift; sourceTree = "<group>"; };
+		005111B32F96104A007C4868 /* HeaderTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTVuCell.xib; sourceTree = "<group>"; };
+		005111B82F96104A007C4868 /* SpecialEventsTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEventsTVuCell.swift; sourceTree = "<group>"; };
+		005111B92F96104A007C4868 /* SpecialEventsTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialEventsTVuCell.xib; sourceTree = "<group>"; };
+		005111BE2F96104A007C4868 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		005111BF2F96104A007C4868 /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		005111D32F96263F007C4868 /* SearchTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTVuCell.swift; sourceTree = "<group>"; };
+		005111D42F96263F007C4868 /* SearchTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTVuCell.xib; sourceTree = "<group>"; };
+		005111D72F9638CA007C4868 /* FriendEventsTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendEventsTVuCell.swift; sourceTree = "<group>"; };
+		005111D82F9638CA007C4868 /* FriendEventsTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendEventsTVuCell.xib; sourceTree = "<group>"; };
+		005111DB2F963A56007C4868 /* FriendCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCVuCell.swift; sourceTree = "<group>"; };
+		005111DC2F963A56007C4868 /* FriendCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCVuCell.xib; sourceTree = "<group>"; };
+		00BAAADD2F9A1B2F0018EC81 /* FriendsList+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendsList+TableView.swift"; sourceTree = "<group>"; };
+		00BAAADE2F9A1B2F0018EC81 /* FriendsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListVC.swift; sourceTree = "<group>"; };
+		00BAAAE42F9A1B660018EC81 /* FriendRowTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRowTVuCell.swift; sourceTree = "<group>"; };
+		00BAAAE52F9A1B660018EC81 /* FriendRowTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendRowTVuCell.xib; sourceTree = "<group>"; };
+		00E2F3A62F9A33C8006B656C /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
+		00E2F3AB2F9A361D006B656C /* EventDetails+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventDetails+TableView.swift"; sourceTree = "<group>"; };
+		00E2F3AE2F9A394A006B656C /* EventTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTVuCell.swift; sourceTree = "<group>"; };
+		00E2F3AF2F9A394A006B656C /* EventTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTVuCell.xib; sourceTree = "<group>"; };
+		00E2F3B32F9A395F006B656C /* HostTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTVuCell.swift; sourceTree = "<group>"; };
+		00E2F3B42F9A395F006B656C /* HostTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HostTVuCell.xib; sourceTree = "<group>"; };
+		00E2F3B72F9A3BD2006B656C /* JoinBtnTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinBtnTVuCell.swift; sourceTree = "<group>"; };
+		00E2F3B82F9A3BD2006B656C /* JoinBtnTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinBtnTVuCell.xib; sourceTree = "<group>"; };
+		00E2F3BC2F9A3EE5006B656C /* DetailTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTVuCell.swift; sourceTree = "<group>"; };
+		00E2F3BD2F9A3EE5006B656C /* DetailTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTVuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		005111622F960DF8007C4868 /* Exceptions for "EventFinder" folder in "EventFinder" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 005111362F960DF4007C4868 /* EventFinder */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		005111392F960DF4007C4868 /* EventFinder */ = {
+		00E2F3C02F9A4B21006B656C /* New Folder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				005111622F960DF8007C4868 /* Exceptions for "EventFinder" folder in "EventFinder" target */,
-			);
-			path = EventFinder;
-			sourceTree = "<group>";
-		};
-		005111532F960DF8007C4868 /* EventFinderTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EventFinderTests;
-			sourceTree = "<group>";
-		};
-		0051115D2F960DF8007C4868 /* EventFinderUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EventFinderUITests;
+			path = "New Folder";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -85,12 +154,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001DF3EF2F9651E100F289EE /* EventsList */ = {
+			isa = PBXGroup;
+			children = (
+				001DF3F82F9652E800F289EE /* Cells */,
+				001DF3EE2F9651E100F289EE /* EventsListVC.swift */,
+				001DF3FB2F96545600F289EE /* EventsList+TableView.swift */,
+			);
+			path = EventsList;
+			sourceTree = "<group>";
+		};
+		001DF3F82F9652E800F289EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				001DF3F62F9652E800F289EE /* EventsTVuCell.swift */,
+				001DF3F72F9652E800F289EE /* EventsTVuCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		002B7DBD2FD002FA00BE0258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				002B7DBC2FD002FA00BE0258 /* EventFinder.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0051112E2F960DF4007C4868 = {
 			isa = PBXGroup;
 			children = (
-				005111392F960DF4007C4868 /* EventFinder */,
-				005111532F960DF8007C4868 /* EventFinderTests */,
-				0051115D2F960DF8007C4868 /* EventFinderUITests */,
+				005111802F960F2D007C4868 /* EventFinder */,
+				005111742F960F2D007C4868 /* EventFinderTests */,
+				005111702F960F2D007C4868 /* EventFinderUITests */,
 				005111382F960DF4007C4868 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +199,198 @@
 				0051115A2F960DF8007C4868 /* EventFinderUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		005111702F960F2D007C4868 /* EventFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0051116E2F960F2D007C4868 /* EventFinderUITests.swift */,
+				0051116F2F960F2D007C4868 /* EventFinderUITestsLaunchTests.swift */,
+			);
+			path = EventFinderUITests;
+			sourceTree = "<group>";
+		};
+		005111742F960F2D007C4868 /* EventFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				005111732F960F2D007C4868 /* EventFinderTests.swift */,
+			);
+			path = EventFinderTests;
+			sourceTree = "<group>";
+		};
+		005111802F960F2D007C4868 /* EventFinder */ = {
+			isa = PBXGroup;
+			children = (
+				005111A42F960FD0007C4868 /* AppDelegates */,
+				005111912F960FBB007C4868 /* Globals */,
+				005111952F960FC9007C4868 /* SupportedFiles */,
+				002B7DBD2FD002FA00BE0258 /* Models */,
+				0051119E2F960FD0007C4868 /* Views */,
+				005111A82F960FD0007C4868 /* Controllers */,
+				005111792F960F2D007C4868 /* Info.plist */,
+			);
+			path = EventFinder;
+			sourceTree = "<group>";
+		};
+		005111912F960FBB007C4868 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				0051118F2F960FBB007C4868 /* Constants.swift */,
+				005111902F960FBB007C4868 /* DesignableView.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		005111952F960FC9007C4868 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				005111942F960FC9007C4868 /* CollectionViewFlowLayout.swift */,
+			);
+			path = SupportedFiles;
+			sourceTree = "<group>";
+		};
+		005111982F960FD0007C4868 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				005111972F960FD0007C4868 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0051119D2F960FD0007C4868 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0051119A2F960FD0007C4868 /* LaunchScreen.storyboard */,
+				0051119C2F960FD0007C4868 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0051119E2F960FD0007C4868 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				005111982F960FD0007C4868 /* Assets */,
+				0051119D2F960FD0007C4868 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005111A42F960FD0007C4868 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				005111A22F960FD0007C4868 /* AppDelegate.swift */,
+				005111A32F960FD0007C4868 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		005111A82F960FD0007C4868 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				005111C02F96104A007C4868 /* Home */,
+				001DF3EF2F9651E100F289EE /* EventsList */,
+				00E2F3A72F9A33C8006B656C /* EventDetails */,
+				00BAAADF2F9A1B2F0018EC81 /* FriendsList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		005111B12F96104A007C4868 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				005111AD2F96104A007C4868 /* EventsCVuCell.swift */,
+				005111AE2F96104A007C4868 /* EventsCVuCell.xib */,
+				005111DB2F963A56007C4868 /* FriendCVuCell.swift */,
+				005111DC2F963A56007C4868 /* FriendCVuCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		005111BC2F96104A007C4868 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				005111B22F96104A007C4868 /* HeaderTVuCell.swift */,
+				005111B32F96104A007C4868 /* HeaderTVuCell.xib */,
+				005111D32F96263F007C4868 /* SearchTVuCell.swift */,
+				005111D42F96263F007C4868 /* SearchTVuCell.xib */,
+				005111B82F96104A007C4868 /* SpecialEventsTVuCell.swift */,
+				005111B92F96104A007C4868 /* SpecialEventsTVuCell.xib */,
+				005111D72F9638CA007C4868 /* FriendEventsTVuCell.swift */,
+				005111D82F9638CA007C4868 /* FriendEventsTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		005111BD2F96104A007C4868 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				005111B12F96104A007C4868 /* Collection Cells */,
+				005111BC2F96104A007C4868 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		005111C02F96104A007C4868 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				005111BD2F96104A007C4868 /* Cells */,
+				005111BE2F96104A007C4868 /* HomeVC.swift */,
+				005111BF2F96104A007C4868 /* Home+TableView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00BAAADC2F9A1B2F0018EC81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00BAAAE42F9A1B660018EC81 /* FriendRowTVuCell.swift */,
+				00BAAAE52F9A1B660018EC81 /* FriendRowTVuCell.xib */,
+				00E2F3C02F9A4B21006B656C /* New Folder */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00BAAADF2F9A1B2F0018EC81 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				00BAAADC2F9A1B2F0018EC81 /* Cells */,
+				00BAAADE2F9A1B2F0018EC81 /* FriendsListVC.swift */,
+				00BAAADD2F9A1B2F0018EC81 /* FriendsList+TableView.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		00E2F3A52F9A33C8006B656C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00E2F3B02F9A394A006B656C /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00E2F3A72F9A33C8006B656C /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				00E2F3A52F9A33C8006B656C /* Cells */,
+				00E2F3A62F9A33C8006B656C /* EventDetailsVC.swift */,
+				00E2F3AB2F9A361D006B656C /* EventDetails+TableView.swift */,
+			);
+			path = EventDetails;
+			sourceTree = "<group>";
+		};
+		00E2F3B02F9A394A006B656C /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00E2F3AE2F9A394A006B656C /* EventTVuCell.swift */,
+				00E2F3AF2F9A394A006B656C /* EventTVuCell.xib */,
+				00E2F3B32F9A395F006B656C /* HostTVuCell.swift */,
+				00E2F3B42F9A395F006B656C /* HostTVuCell.xib */,
+				00E2F3B72F9A3BD2006B656C /* JoinBtnTVuCell.swift */,
+				00E2F3B82F9A3BD2006B656C /* JoinBtnTVuCell.xib */,
+				00E2F3BC2F9A3EE5006B656C /* DetailTVuCell.swift */,
+				00E2F3BD2F9A3EE5006B656C /* DetailTVuCell.xib */,
+			);
+			path = "Table Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +409,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				005111392F960DF4007C4868 /* EventFinder */,
+				00E2F3C02F9A4B21006B656C /* New Folder */,
 			);
 			name = EventFinder;
 			packageProductDependencies = (
@@ -143,9 +431,6 @@
 			dependencies = (
 				005111522F960DF8007C4868 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				005111532F960DF8007C4868 /* EventFinderTests */,
-			);
 			name = EventFinderTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +450,6 @@
 			);
 			dependencies = (
 				0051115C2F960DF8007C4868 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0051115D2F960DF8007C4868 /* EventFinderUITests */,
 			);
 			name = EventFinderUITests;
 			packageProductDependencies = (
@@ -225,6 +507,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BAAAE62F9A1B660018EC81 /* FriendRowTVuCell.xib in Resources */,
+				00E2F3BE2F9A3EE5006B656C /* DetailTVuCell.xib in Resources */,
+				0051119F2F960FD0007C4868 /* Assets.xcassets in Resources */,
+				005111A02F960FD0007C4868 /* LaunchScreen.storyboard in Resources */,
+				001DF3FA2F9652E800F289EE /* EventsTVuCell.xib in Resources */,
+				005111DE2F963A56007C4868 /* FriendCVuCell.xib in Resources */,
+				005111D62F96263F007C4868 /* SearchTVuCell.xib in Resources */,
+				005111CF2F96104A007C4868 /* SpecialEventsTVuCell.xib in Resources */,
+				005111D02F96104A007C4868 /* EventsCVuCell.xib in Resources */,
+				00E2F3B92F9A3BD2006B656C /* JoinBtnTVuCell.xib in Resources */,
+				005111D22F96104A007C4868 /* HeaderTVuCell.xib in Resources */,
+				005111A12F960FD0007C4868 /* Main.storyboard in Resources */,
+				00E2F3B12F9A394A006B656C /* EventTVuCell.xib in Resources */,
+				00E2F3B52F9A395F006B656C /* HostTVuCell.xib in Resources */,
+				005111DA2F9638CA007C4868 /* FriendEventsTVuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +546,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E2F3BA2F9A3BD2006B656C /* JoinBtnTVuCell.swift in Sources */,
+				00E2F3B22F9A394A006B656C /* EventTVuCell.swift in Sources */,
+				00E2F3B62F9A395F006B656C /* HostTVuCell.swift in Sources */,
+				00E2F3AC2F9A362D006B656C /* EventDetails+TableView.swift in Sources */,
+				002B7DBF2FD002FA00BE0258 /* EventFinder.xcdatamodeld in Sources */,
+				001DF3FC2F96546000F289EE /* EventsList+TableView.swift in Sources */,
+				005111962F960FC9007C4868 /* CollectionViewFlowLayout.swift in Sources */,
+				00E2F3BF2F9A3EE5006B656C /* DetailTVuCell.swift in Sources */,
+				005111A52F960FD0007C4868 /* AppDelegate.swift in Sources */,
+				00E2F3AA2F9A33C8006B656C /* EventDetailsVC.swift in Sources */,
+				001DF3F92F9652E800F289EE /* EventsTVuCell.swift in Sources */,
+				005111C52F96104A007C4868 /* HeaderTVuCell.swift in Sources */,
+				005111D52F96263F007C4868 /* SearchTVuCell.swift in Sources */,
+				005111C62F96104A007C4868 /* HomeVC.swift in Sources */,
+				005111C72F96104A007C4868 /* Home+TableView.swift in Sources */,
+				005111DD2F963A56007C4868 /* FriendCVuCell.swift in Sources */,
+				005111C92F96104A007C4868 /* SpecialEventsTVuCell.swift in Sources */,
+				005111CA2F96104A007C4868 /* EventsCVuCell.swift in Sources */,
+				001DF3F02F9651E100F289EE /* EventsListVC.swift in Sources */,
+				005111A62F960FD0007C4868 /* SceneDelegate.swift in Sources */,
+				005111D92F9638CA007C4868 /* FriendEventsTVuCell.swift in Sources */,
+				005111922F960FBB007C4868 /* DesignableView.swift in Sources */,
+				005111932F960FBB007C4868 /* Constants.swift in Sources */,
+				00BAAAE72F9A1B660018EC81 /* FriendRowTVuCell.swift in Sources */,
+				00BAAAE02F9A1B2F0018EC81 /* FriendsList+TableView.swift in Sources */,
+				00BAAAE12F9A1B2F0018EC81 /* FriendsListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005111752F960F2D007C4868 /* EventFinderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +587,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005111712F960F2D007C4868 /* EventFinderUITests.swift in Sources */,
+				005111722F960F2D007C4868 /* EventFinderUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +607,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		0051119A2F960FD0007C4868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005111992F960FD0007C4868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0051119C2F960FD0007C4868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0051119B2F960FD0007C4868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		005111642F960DF8007C4868 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,11 +636,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EventFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Event Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +649,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.EventFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +668,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EventFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Event Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +681,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.EventFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +918,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		002B7DBC2FD002FA00BE0258 /* EventFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				002B7DBE2FD002FA00BE0258 /* EventFinder.xcdatamodel */,
+			);
+			currentVersion = 002B7DBE2FD002FA00BE0258 /* EventFinder.xcdatamodel */;
+			path = EventFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0051112F2F960DF4007C4868 /* Project object */;
 }

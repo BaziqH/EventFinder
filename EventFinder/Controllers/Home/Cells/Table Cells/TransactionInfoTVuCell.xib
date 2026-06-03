@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionInfoTVuCell" rowHeight="-334" id="KGk-i7-Jjw" customClass="TransactionInfoTVuCell" customModule="ExpenseTracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="533" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="533" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-Vw-iUO" customClass="DesignableView" customModule="ExpenseTracker" customModuleProvider="target">
+                        <rect key="frame" x="12" y="0.0" width="509" height="112"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kay-sQ-IUv" customClass="DesignableView" customModule="ExpenseTracker" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="80" height="80"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_profilepic" translatesAutoresizingMaskIntoConstraints="NO" id="u4k-re-UYP">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="u4k-re-UYP" firstAttribute="leading" secondItem="Kay-sQ-IUv" secondAttribute="leading" id="0iw-W5-LlQ"/>
+                                    <constraint firstAttribute="width" secondItem="Kay-sQ-IUv" secondAttribute="height" multiplier="1:1" id="LSV-Q5-33Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="u4k-re-UYP" secondAttribute="bottom" id="jbK-m2-B1x"/>
+                                    <constraint firstAttribute="trailing" secondItem="u4k-re-UYP" secondAttribute="trailing" id="sj1-DE-aw9"/>
+                                    <constraint firstItem="u4k-re-UYP" firstAttribute="top" secondItem="Kay-sQ-IUv" secondAttribute="top" id="zbd-fX-Bly"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCorner" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Kay-sQ-IUv" firstAttribute="leading" secondItem="cAG-Vw-iUO" secondAttribute="leading" constant="8" id="C4R-yf-o9f"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kay-sQ-IUv" secondAttribute="bottom" priority="999" constant="8" id="KuJ-an-9EK"/>
+                            <constraint firstItem="Kay-sQ-IUv" firstAttribute="top" secondItem="cAG-Vw-iUO" secondAttribute="top" constant="8" id="hRD-9b-Blf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="AllCorner">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.23529411759999999" green="0.25882352939999997" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0qV-pU-T9O">
+                        <rect key="frame" x="108" y="22.333333333333332" width="405" height="51.333333333333343"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYH-4X-zs6">
+                                <rect key="frame" x="0.0" y="0.0" width="405" height="26.333333333333332"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Syed Ali Hamza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1u6-ZI-Uau">
+                                        <rect key="frame" x="0.0" y="0.0" width="338" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="60000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQo-wC-srP">
+                                        <rect key="frame" x="338" y="0.0" width="67" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DFk-Ej-hfM">
+                                <rect key="frame" x="0.0" y="34.333333333333329" width="405" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ7-L4-SQY">
+                                        <rect key="frame" x="0.0" y="0.0" width="369.66666666666669" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpO-xf-SVU">
+                                        <rect key="frame" x="369.66666666666669" y="0.0" width="35.333333333333314" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kay-sQ-IUv" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.15" priority="999" id="8Wk-ad-IWe"/>
+                    <constraint firstItem="0qV-pU-T9O" firstAttribute="leading" secondItem="Kay-sQ-IUv" secondAttribute="trailing" constant="8" id="Mbk-b6-bAO"/>
+                    <constraint firstAttribute="trailing" secondItem="cAG-Vw-iUO" secondAttribute="trailing" constant="12" id="T6p-qo-nwK"/>
+                    <constraint firstAttribute="bottom" secondItem="cAG-Vw-iUO" secondAttribute="bottom" constant="12" id="YRN-jd-LUs"/>
+                    <constraint firstItem="cAG-Vw-iUO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aLn-F6-GIb"/>
+                    <constraint firstItem="cAG-Vw-iUO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="eJi-3S-IoU"/>
+                    <constraint firstItem="cAG-Vw-iUO" firstAttribute="trailing" secondItem="0qV-pU-T9O" secondAttribute="trailing" constant="8" id="x2R-Bo-Zqh"/>
+                    <constraint firstItem="0qV-pU-T9O" firstAttribute="centerY" secondItem="Kay-sQ-IUv" secondAttribute="centerY" id="xIg-bg-GaU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="nameLabel" destination="1u6-ZI-Uau" id="NfH-us-ARA"/>
+                <outlet property="personImage" destination="Kay-sQ-IUv" id="ext-Nt-V3D"/>
+                <outlet property="profileImage" destination="u4k-re-UYP" id="aPk-xb-ML5"/>
+                <outlet property="transactionAmount" destination="cQo-wC-srP" id="F00-VN-TKP"/>
+                <outlet property="transactionTimeLabel" destination="wQ7-L4-SQY" id="UU3-tJ-tK5"/>
+                <outlet property="transactionType" destination="vpO-xf-SVU" id="Yhz-yQ-ZA1"/>
+            </connections>
+            <point key="canvasLocation" x="-1467.9389312977098" y="-171.83098591549296"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img_profilepic" width="600" height="415"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

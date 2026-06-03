@@ -1,0 +1,11 @@
+//
+/********** Developed by Drudots Technology **********/
+/******** https://www.drudotstech.com **********/
+//
+
+class CategoryCVuCell: UICollectionViewCell {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+}

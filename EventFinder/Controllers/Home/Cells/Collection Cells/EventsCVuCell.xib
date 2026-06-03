@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EventsCVuCell" id="gTV-IL-0wX" customClass="EventsCVuCell" customModule="EventFinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTt-Er-bNt">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="160"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKr-Za-3qZ" customClass="DesignableView" customModule="EventFinder" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_eventposter" translatesAutoresizingMaskIntoConstraints="NO" id="me1-OG-nkG">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="me1-OG-nkG" firstAttribute="top" secondItem="PKr-Za-3qZ" secondAttribute="top" id="AgI-fK-0W2"/>
+                                    <constraint firstAttribute="bottom" secondItem="me1-OG-nkG" secondAttribute="bottom" id="OOu-c8-MSL"/>
+                                    <constraint firstAttribute="width" constant="180" id="PGo-AF-e1O"/>
+                                    <constraint firstAttribute="height" constant="100" id="XG1-3l-pJ5"/>
+                                    <constraint firstItem="me1-OG-nkG" firstAttribute="leading" secondItem="PKr-Za-3qZ" secondAttribute="leading" id="aSF-EZ-DR3"/>
+                                    <constraint firstAttribute="trailing" secondItem="me1-OG-nkG" secondAttribute="trailing" id="oaQ-bN-EUf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="AllCorner">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemGray5Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="diQ-jD-kmk">
+                                <rect key="frame" x="0.0" y="108" width="180" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="123 Dawson St. London, England" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yte-jX-rtc">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="13.666666666666666"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Family Fun Day - Be a part of the" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSq-cu-spP">
+                                        <rect key="frame" x="0.0" y="19.666666666666671" width="180" height="14.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" horizontalCompressionResistancePriority="749" text="April 24th, 2024 - 10:30 AM - All Day" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DB-sX-o3T">
+                                        <rect key="frame" x="0.0" y="40" width="180" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="diQ-jD-kmk" firstAttribute="leading" secondItem="dTt-Er-bNt" secondAttribute="leading" id="7ps-5T-vT3"/>
+                            <constraint firstAttribute="trailing" secondItem="diQ-jD-kmk" secondAttribute="trailing" id="EK2-yk-34T"/>
+                            <constraint firstItem="diQ-jD-kmk" firstAttribute="width" secondItem="PKr-Za-3qZ" secondAttribute="width" id="VOv-7c-faa"/>
+                            <constraint firstAttribute="bottom" secondItem="diQ-jD-kmk" secondAttribute="bottom" id="f9m-26-iIY"/>
+                            <constraint firstItem="PKr-Za-3qZ" firstAttribute="top" secondItem="dTt-Er-bNt" secondAttribute="top" id="fCQ-f7-rGz"/>
+                            <constraint firstItem="PKr-Za-3qZ" firstAttribute="leading" secondItem="dTt-Er-bNt" secondAttribute="leading" id="l8P-YQ-LZ6"/>
+                            <constraint firstItem="diQ-jD-kmk" firstAttribute="top" secondItem="PKr-Za-3qZ" secondAttribute="bottom" constant="8" id="ruk-bd-pOs"/>
+                            <constraint firstAttribute="trailing" secondItem="PKr-Za-3qZ" secondAttribute="trailing" id="wAW-fv-qC7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dTt-Er-bNt" secondAttribute="trailing" id="D3X-4d-3xK"/>
+                <constraint firstItem="dTt-Er-bNt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Pyi-Rq-HMV"/>
+                <constraint firstItem="dTt-Er-bNt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Zm9-Kt-NZX"/>
+                <constraint firstAttribute="bottom" secondItem="dTt-Er-bNt" secondAttribute="bottom" id="rsI-Qh-7SI"/>
+            </constraints>
+            <size key="customSize" width="180" height="160"/>
+            <point key="canvasLocation" x="-283.96946564885496" y="-163.38028169014086"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_eventposter" width="451" height="629"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

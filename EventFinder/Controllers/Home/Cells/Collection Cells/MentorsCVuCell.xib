@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MentorsCVuCell" id="gTV-IL-0wX" customClass="MentorsCVuCell" customModule="WeLearn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="59"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="302" height="59"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIX-AV-Jn4">
+                        <rect key="frame" x="0.0" y="0.0" width="302" height="59"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfc-ag-hgM" customClass="DesignableView" customModule="WeLearn" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_person1" translatesAutoresizingMaskIntoConstraints="NO" id="iFo-31-yru">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="iFo-31-yru" firstAttribute="leading" secondItem="lfc-ag-hgM" secondAttribute="leading" id="939-rl-kDO"/>
+                                    <constraint firstAttribute="bottom" secondItem="iFo-31-yru" secondAttribute="bottom" id="ACm-5C-cfN"/>
+                                    <constraint firstAttribute="width" constant="60" id="O9p-4D-PS7"/>
+                                    <constraint firstAttribute="height" constant="60" id="Tlj-kz-dYj"/>
+                                    <constraint firstItem="iFo-31-yru" firstAttribute="top" secondItem="lfc-ag-hgM" secondAttribute="top" id="bMj-J5-jAR"/>
+                                    <constraint firstAttribute="trailing" secondItem="iFo-31-yru" secondAttribute="trailing" id="bQc-UR-sJs"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCorner" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemGray5Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UIk-C2-uwB">
+                                <rect key="frame" x="68" y="0.0" width="222" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LeV-6v-RjO">
+                                        <rect key="frame" x="0.0" y="0.0" width="221" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Ammar Ahmed!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8F-Ga-vWH">
+                                                <rect key="frame" x="0.0" y="0.0" width="221" height="21"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Cryptographer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuO-Ki-U9F">
+                                                <rect key="frame" x="0.0" y="21" width="221" height="39"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wWc-oW-wcB">
+                                        <rect key="frame" x="221" y="0.0" width="1" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="FRu-tF-IqM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UIk-C2-uwB" firstAttribute="centerY" secondItem="lfc-ag-hgM" secondAttribute="centerY" id="35G-ef-ZF5"/>
+                            <constraint firstItem="lfc-ag-hgM" firstAttribute="leading" secondItem="tIX-AV-Jn4" secondAttribute="leading" id="OSs-oO-l0z"/>
+                            <constraint firstAttribute="bottom" secondItem="lfc-ag-hgM" secondAttribute="bottom" priority="999" id="Pwf-0q-Ojm"/>
+                            <constraint firstItem="wWc-oW-wcB" firstAttribute="height" secondItem="lfc-ag-hgM" secondAttribute="height" id="U9K-H4-zza"/>
+                            <constraint firstItem="lfc-ag-hgM" firstAttribute="top" secondItem="tIX-AV-Jn4" secondAttribute="top" id="c5v-iB-hbw"/>
+                            <constraint firstAttribute="trailing" secondItem="UIk-C2-uwB" secondAttribute="trailing" constant="12" id="igP-Bt-NHF"/>
+                            <constraint firstItem="UIk-C2-uwB" firstAttribute="leading" secondItem="lfc-ag-hgM" secondAttribute="trailing" constant="8" id="ssN-ep-zWk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="tIX-AV-Jn4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="13q-dl-eCR"/>
+                <constraint firstAttribute="trailing" secondItem="tIX-AV-Jn4" secondAttribute="trailing" id="9lR-OK-D9b"/>
+                <constraint firstItem="tIX-AV-Jn4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dCQ-V5-HpA"/>
+                <constraint firstAttribute="bottom" secondItem="tIX-AV-Jn4" secondAttribute="bottom" id="qb5-GQ-vEP"/>
+            </constraints>
+            <size key="customSize" width="302" height="59"/>
+            <point key="canvasLocation" x="125.19083969465649" y="-8.0985915492957758"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_person1" width="540" height="360"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
